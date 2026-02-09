@@ -277,7 +277,15 @@
 		},
 		"extraResources": [
 			"./assets/**"
-		]
+		],
+    	"publish": [
+    		{
+      			"provider": "github",
+      			"owner": "waruhachi",
+      			"repo": "akuse",
+      			"releaseType": "release"
+    		}
+  		]
 	},
 	"collective": {
 		"url": "https://opencollective.com/electron-react-boilerplate-594"
